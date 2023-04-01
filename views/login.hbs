@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add SInh Vien</title>
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    ></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="colm-form">
+            <div class="form-container">
+              <form
+                class="colm-form"
+                method="POST"
+                id="myForm"
+                action="/student/add"
+              >
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Name</label>
+                  <input type="text" name="nameStudent" placeholder="Name" />
+
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Age</label>
+                  <input type="number" name="age" placeholder="age" />
+
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Dia chi</label>
+                  <input type="text" name="diachi" placeholder="Dia chi" />
+
+                </div>
+
+                <h5 id="register-link"><a href="/home">Xem ds</a></h5>
+                <button type="submit" class="btn btn-primary">Thêm sinh viên</button>
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
